@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #000000 , #ffffff, #ffffff, #000000);
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#modo-btn {
+    background: white;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.lenguaje {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .lenguaje {
+    background: #444;
+    color: white;
+}
+
+
+.tarjeta {
+    width: 80%; /* Ajusta según necesites */
+    max-width: 600px; /* Evita que sean muy grandes en pantallas grandes */
+    margin: 20px auto; /* Centra horizontalmente */
+    padding: 20px;
+    background-color: #333; /* Color inicial */
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff !important; /* Cambia a oscuro */
+    transform: scale(1.02);
+    transition: background-color #333 0.3s ease, transform 0.2s ease;
+}
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .tarjeta {
+    background-color: #444;
+    color: white;
+}
